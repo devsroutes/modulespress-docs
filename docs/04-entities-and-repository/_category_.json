@@ -1,0 +1,8 @@
+{
+  "label": "Entities and Repository",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Work with WordPress custom post types and taxonomies using entities."
+  }
+}
