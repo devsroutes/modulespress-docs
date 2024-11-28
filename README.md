@@ -1,41 +1,79 @@
-# Website
+# ModulesPress Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+<p align="center">
+  <img src="static/img/logo.png" alt="ModulesPress Logo" width="200"/>
+</p>
 
-### Installation
+Welcome to the official documentation repository for ModulesPress! This repository contains the source code for our documentation website built with Docusaurus 3.
 
-```
-$ yarn
-```
+## 🚀 Quick Start
 
-### Local Development
+```bash
+# Install dependencies
+npm install
 
-```
-$ yarn start
-```
+# Start development server
+npm start
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+# Build for production
+npm run build
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+## 📖 About
 
-### Deployment
+ModulesPress documentation is built using [Docusaurus 3](https://docusaurus.io/), a modern static website generator. Our documentation aims to provide comprehensive guides, tutorials, and API references for ModulesPress users.
 
-Using SSH:
+## 🤝 Contributing
+
+We welcome contributions from the community! Here's how you can help:
+
+### Setting up the Development Environment
+
+1. Fork the repository
+2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/modulespress-docs.git`
+3. Install dependencies: `npm install`
+4. Create a new branch: `git checkout -b feature/your-feature-name`
+
+### Making Changes
+
+1. Make your changes to the documentation
+2. Test locally using `npm start`
+3. Ensure your changes follow our documentation style guide
+4. Commit your changes with clear, descriptive commit messages
+
+### Submitting a Pull Request
+
+1. Push your changes to your fork
+2. Submit a pull request to the main repository
+3. Describe your changes and why they're necessary
+4. Wait for review and address any feedback
+
+### Documentation Style Guide
+
+- Use clear, concise language
+- Include code examples where appropriate
+- Follow Markdown best practices
+- Add images and diagrams when they help explain concepts
+- Ensure all links are working
+- Include proper headings and subheadings
+
+## 🔧 Project Structure
 
 ```
-$ USE_SSH=true yarn deploy
+modulespress-docs/
+├── docs/              # Documentation markdown files
+├── src/               # Custom components and pages
+├── static/            # Static assets
+├── docusaurus.config.ts   # Docusaurus configuration
+└── sidebars.ts        # Sidebar configuration
 ```
 
-Not using SSH:
+## 📝 License
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Key points:
+- ✅ Free to use, copy, modify, and distribute
+- ✅ Commercial use allowed
+- ❌ No warranty provided
+- Must include the original license and copyright notice
