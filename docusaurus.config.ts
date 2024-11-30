@@ -151,6 +151,13 @@ const config: Config = {
   markdown: {
     mermaid: true,
   },
+  scripts: [
+    {
+      'data-website-id': '661f7222-27f3-483f-9dfd-d00e545b116b',
+      src: 'https://analytics.devsroutes.co/script.js',
+      async: true
+    },
+  ],
 
   themes: ['@docusaurus/theme-mermaid']
 };
