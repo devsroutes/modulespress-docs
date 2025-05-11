@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://modulespress.devsroutes.co',
+  url: 'https://docs.modulespress.devsroutes.co',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -37,7 +37,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          routeBasePath: '/', // Serve the docs 
+          routeBasePath: '/', // This makes docs available at the root
         },
         blog: false,
         theme: {
@@ -100,11 +100,11 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: '/docs/getting-started/introduction',
+              to: 'getting-started/introduction',
             },
             {
               label: 'Headless CMS',
-              to: '/docs/category/wp-rest-api',
+              to: 'category/wp-rest-api',
             }
           ],
         },
