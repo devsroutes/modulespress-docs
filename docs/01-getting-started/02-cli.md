@@ -36,7 +36,7 @@ modulespress pack
 ```
 
 Package the plugin for distribution and optimize dependencies.
-You can learn more about packaging and distribution in its own chapter [Packaging](../08-packaging.md).
+You can learn more about packaging and distribution in its own chapter [Packaging](../06-packaging.md).
 
 ### Module Generation
 

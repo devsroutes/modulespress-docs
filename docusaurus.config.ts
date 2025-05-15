@@ -100,7 +100,7 @@ const config: Config = {
           items: [
             {
               label: 'Tutorial',
-              to: 'getting-started/introduction',
+              to: '/',
             },
             {
               label: 'Headless CMS',

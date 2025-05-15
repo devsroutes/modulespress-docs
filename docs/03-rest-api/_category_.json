@@ -1,6 +1,6 @@
 {
   "label": "WP REST API",
-  "position": 3,
+  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Build powerful REST APIs with ModulesPress controllers and decorators."
